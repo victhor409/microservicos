@@ -21,10 +21,11 @@ public class Cartao {
     private BigDecimal renda;
     private BigDecimal limiteBasico;
 
-    public Cartao(String nome, BigDecimal limiteBasico, BandeiraCartao bandeira ){
+    public Cartao(String nome, BandeiraCartao bandeira, BigDecimal limiteBasico, BigDecimal renda){
         this.nome = nome;
         this.limiteBasico = limiteBasico;
         this.bandeira = bandeira;
+        this.renda = renda;
 
     }
 }

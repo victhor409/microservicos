@@ -8,7 +8,7 @@
         <version>2.6.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>io.github.curso</groupId>
+    <groupId>io.github.curso.io</groupId>
     <artifactId>mscartoes</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>mscartoes</name>
