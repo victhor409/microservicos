@@ -6,8 +6,12 @@ spring:
       locator:
         enable: true
         lower-case-service-id: true
-
-
+#Api KeyCloak
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8081/realms/mscursorealm
 server:
   port: 8080
 
